@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 15px lightblue;
+}
+.navtools ul{
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.enquire-btn > button,.btn-container > button{
+    background: rgb(238,75,75);
+    background: -moz-linear-gradient(291deg, rgba(238,75,75,1) 15%, rgba(219,148,16,1) 47%, rgba(183,197,43,1) 100%);
+    background: -webkit-linear-gradient(291deg, rgba(238,75,75,1) 15%, rgba(219,148,16,1) 47%, rgba(183,197,43,1) 100%);
+    background: linear-gradient(291deg, rgba(238,75,75,1) 15%, rgba(219,148,16,1) 47%, rgba(183,197,43,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ee4b4b",endColorstr="#b7c52b",GradientType=1);
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+img{
+    height: 100px;
+}
+li{
+    list-style: none;
+}
+
+select{
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #808080;
+    background: transparent;
+}
+select:hover{
+    color: navy;
+}
+li:hover{
+    color: navy;
+}
+
+/* ---------------------------------------- */
+
+main{
+    min-height: 400px;
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+
+}
+form{
+    border-radius: 15px;
+    background: #faf8f8;
+    box-shadow:  2px 18px 50px lightblue,
+             -18px -18px 50px #ffffff;
+    height: 400px;
+    width: 360px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    text-transform: capitalize;
+    gap: 10px;
+    
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 10px ;
+}
+.btn-container > button{
+    padding: 10px 8px;
+    position: relative;
+    top: 35px;
+    
+}
